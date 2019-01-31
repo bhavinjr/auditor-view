@@ -1,0 +1,31 @@
+{
+    "name": "bhavinjr/auditor-view",
+    "description": "laravel-auditor view",
+    "type": "library",
+    "keywords": [
+        "mongo", "audit", "laravel", "log", "user", "activity", "log viewer", "activity log viewer", "vue js log viewer", "laravel mongo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bhavin",
+            "email": "bhavinrudani94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "msonowal/laravel-auditor": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhavinjr\\Viewdit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bhavinjr\\Viewdit\\Providers\\ViewditServiceProvider"
+            ]
+        }
+    }
+}
